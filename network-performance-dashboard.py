@@ -37,8 +37,8 @@ st.sidebar.write("")
 st.sidebar.markdown("Made by :satellite: by Eng. Ehab El-Guindy")
 # Add LinkedIn and GitHub links
 st.sidebar.markdown("**Connect with me:**")
-st.sidebar.markdown("[LinkedIn](www.linkedin.com/in/ehab-el-guindy-375a4488")
-st.sidebar.markdown("[GitHub](https://github.com/ehabelguindy)")
+st.sidebar.markdown("[🔗 LinkedIn](https://www.linkedin.com/in/ehab-el-guindy-375a4488)")
+st.sidebar.markdown("[🐙 GitHub](https://github.com/ehabelguindy)")
 
 # Main body
 st.title("Cellular Network Performance Data Dashboard")
@@ -94,3 +94,4 @@ if 'Call Type' in df.columns:
 # Show data
 with st.expander("Show Raw Data"):
     st.dataframe(df)
+
